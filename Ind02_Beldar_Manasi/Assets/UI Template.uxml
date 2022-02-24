@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="MyStyles.uss" />
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(24, 24, 24, 0); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0);">
+        <ui:Button text="Run" display-tooltip-when-elided="true" name="run-button" class="button-style" />
+        <ui:Button text="Walk" display-tooltip-when-elided="true" name="walk-button" class="button-style" style="top: 345px; left: 422px;" />
+    </ui:VisualElement>
+</ui:UXML>
